@@ -11,7 +11,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    font-family: "Fira sans", sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -19,12 +19,12 @@ body {
     flex-direction: column;
     min-height: 100vh;
     color: #FFF;
-    background-color: var(--dark);
+    background: linear-gradient(to right, #5cd6d6, #ffb3d9);
 }
 
 header {
     padding: 2rem 1rem;
-    max-width: 800px;
+    max-width: 1000px;
     width: 100%;
     margin: 0 auto;
 }
@@ -32,7 +32,7 @@ header {
 header h1 {
     font-size: 2.5rem;
     font-weight: 300;
-    color: var(--grey);
+    color: rgb(0, 0, 0);
     margin-bottom: 1rem;
 }
 
@@ -84,7 +84,7 @@ button {
 
 main {
     flex: 1 1 0%;
-    max-width: 800px;
+    max-width: 1000px;
     width: 100%;
     margin: 0 auto;
 }
@@ -96,7 +96,7 @@ main {
 .task-list h2 {
     font-size: 1.5rem;
     font-weight: 300;
-    color: var(--grey);
+    color: rgb(0, 0, 0);
     margin-bottom: 1rem;
 }
 
@@ -148,11 +148,13 @@ main {
 }
 
 .task .actions .edit {
-    background-image: linear-gradient(to right, var(--pink), var(--purple));
+    background-image: linear-gradient(to right, blue, white);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .task .actions .delete {
-    color: crimson;
+    background-image: linear-gradient(to right, rgb(255, 0, 0), white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
