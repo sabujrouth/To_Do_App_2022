@@ -19,7 +19,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     color: #FFF;
-    background: linear-gradient(to right, #5cd6d6, #ffb3d9);
+    background: linear-gradient(to right, rgba(185, 244, 237, 1), rgba(240, 144, 255, 1));
 }
 
 header {
@@ -31,7 +31,8 @@ header {
 
 header h1 {
     font-size: 2.5rem;
-    font-weight: 300;
+    text-shadow: 2px 2px 2px greenyellow;
+    font-weight: bold;
     color: rgb(0, 0, 0);
     margin-bottom: 1rem;
 }
@@ -67,9 +68,6 @@ button {
     color: var(--pink);
     font-size: 1.25rem;
     font-weight: 700;
-    background-image: linear-gradient(to right, var(--pink), var(--purple));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     cursor: pointer;
     transition: 0.4s;
 }
@@ -95,7 +93,7 @@ main {
 
 .task-list h2 {
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: bold;
     color: rgb(0, 0, 0);
     margin-bottom: 1rem;
 }
@@ -103,7 +101,7 @@ main {
 #tasks .task {
     display: flex;
     justify-content: space-between;
-    background-color: var(--darkest);
+    background-color: white;
     padding: 1rem;
     border-radius: 1rem;
     margin-bottom: 1rem;
@@ -114,7 +112,7 @@ main {
 }
 
 .task .content .text {
-    color: var(--light);
+    color: black;
     font-size: 1.125rem;
     width: 100%;
     display: block;
@@ -145,16 +143,4 @@ main {
 
 .task .actions button:active {
     opacity: 0.6;
-}
-
-.task .actions .edit {
-    background-image: linear-gradient(to right, blue, white);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.task .actions .delete {
-    background-image: linear-gradient(to right, rgb(255, 0, 0), white);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
