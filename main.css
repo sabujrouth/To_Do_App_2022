@@ -52,20 +52,20 @@ button {
 
 #new-task-input {
     flex: 1 1 0%;
-    background-color: var(--darker);
+    background-color: white;
     padding: 1rem;
     border-radius: 1rem;
     margin-right: 1rem;
-    color: var(--light);
+    color: black;
     font-size: 1.25rem;
 }
 
 #new-task-input::placeholder {
-    color: var(--grey);
+    color: #a3c2c2;
 }
 
 #new-task-submit {
-    color: var(--pink);
+    color: white;
     font-size: 1.25rem;
     font-weight: 700;
     cursor: pointer;
