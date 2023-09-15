@@ -66,8 +66,8 @@ button {
 
 #new-task-submit {
     color: white;
-    font-size: 1.25rem;
-    font-weight: 700;
+    font-size: 2.5rem;
+    padding: none;
     cursor: pointer;
     transition: 0.4s;
 }
